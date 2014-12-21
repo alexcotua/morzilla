@@ -1,0 +1,169 @@
+@-moz-document domain("google.com.co"),
+               url-prefix("https://encrypted.google.com/")
+{
+body {
+  /*background-color: #121212 !important;*/
+    background-image: url("http://puu.sh/ai2PH/1482b01137.png")!important;  
+    background-repeat: repeat;   
+     color: #6d7393 !important;  
+}  
+  
+/* autohide top header */
+  
+.gb_f.gb_Oc {
+    margin-top: -60px;
+    padding-bottom: 20px;
+} 
+  
+.gb_f.gb_Oc:hover {
+    margin-top: 0px;
+}  
+    
+.gb_Sc .gb_Sb {
+    background: transparent !important;
+}    
+    
+#hplogo {
+    background-color: transparent !important;
+    background-image: url("http://puu.sh/cRsCL/cc67b46f38.png") !important;
+    background-repeat: no-repeat !important;  
+    background-size: 259px 90px !important; 
+    height: 105px !important; 
+    overflow: hidden !important; 
+    opacity: .5 !important; 
+    transition: opacity .6s !important; 
+    background-position: center top !important;
+}
+   
+/* removes random things */  
+  
+.fbar, .action-menu {
+  display: none;
+}  
+  
+/* link color */
+  
+a:link, .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .tbotu, #tads a, #tadsb a, #res a, #rhs a, #taw a {
+    color: #434359 !important;
+    text-decoration: none;
+}  
+
+/* other link color */  
+  
+.a, cite, cite a:link, cite a:visited, .cite, .cite:link, #_bGc > i, .bc a:link, a.fl:link {
+    color: #474c70 !important;
+    text-decoration: none;
+}    
+  
+/* body bg and color + header colors */  
+  
+#gbqfbwa .gbqfba, body.vasq .ab_tnav_wrp, body.vasq #hdtbSum, .gb_Sb, #topabar, #extabar, .s, #ires, #hdtbMenus.hdtb-td-o, #cnt #center_col, #cnt, .mn-hd-txt, #hdtb.notl div, #hdtb_msb .hdtb-tl-sel, #hdtb_msb .hdtb-tl-sel:hover, #hdtb_msb .hdtb_mitem.hdtb_msel {
+   background-color: #121212 !important;
+   background: transparent;
+   color: #6d7393 !important;
+   border: none;
+   border-bottom: 0px solid #121212 !important;
+}
+ 
+/* search bar and search button colors */  
+  
+.gbqfqw:hover {
+   background: #6d7393;
+   color: #121212 !important;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-color: #121212 !important;
+    height: 30px;
+}  
+  
+.sbib_b, #gbqfq {
+    background-color: #121212 !important;
+}
+  
+.gbqfqw, #gbqfb {
+    background: #121212;
+    color: #6d7393 !important;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-color: #6d7393 !important;
+}
+
+.gbqfif {
+    color: #6d7393 !important;
+}
+  
+.sbsb_c {
+    background: #121212;
+    color: #6d7393 !important;
+    border-width: 1px;
+    border-style: solid;
+    border-right: 1px solid #121212;
+    border-color: #121212;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: default;
+}  
+  
+.gsst_b {
+    background: #121212;
+    color: #6d7393 !important;
+}  
+  
+#footer {
+    display: none;
+}  
+    
+.rg_anbg, .rg_ilmbg, .rg_ilmn, .rg_an, .rg_anbg, .rg_ilm, .rg_ilmbg {
+    background: #121212;
+    color: #6d7393 !important;
+    margin-left: 0px;
+    padding: 2px 4px;
+    position: absolute;
+}
+   
+#hdtbSum {
+    margin-top: -60px;
+    padding-bottom: 20px;
+}    
+    
+#hdtbSum:hover {
+    margin-top: 0px;
+    padding-bottom: 20px;
+}      
+    
+ #ab_ctls {
+    display: none;
+}
+    
+#qbi.gssi_a {
+    background: url('data:image/gif;base64,R0lGODlhEgANAOMKAAAAABUVFRoaGisrKzk5OUxMTGRkZLS0tM/Pz9/f3////////////////////////yH5BAEKAA8ALAAAAAASAA0AAART8Ml5Arg3nMkluQIhXMRUYNiwSceAnYAwAkOCGISBJC4mSKMDwpJBHFC/h+xhQAEMSuSo9EFRnSCmEzrDComAgBGbsuF0PHJq9WipnYJB9/UmFyIAOw==') no-repeat scroll center center transparent;
+    cursor: pointer;
+    display: inline-block;
+    height: 0px;
+    padding: 0px;
+    width: 18px;
+}   
+    
+.gb_Pa .gb_Oa {
+    display: none;
+}   
+    
+#gbqfb {
+    color: #6d7393 !important;
+}    
+  
+}  
