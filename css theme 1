@@ -1,0 +1,100 @@
+@-moz-document url-prefix(https://userstyles.org) {
+
+/* background + links + header + search */  
+body, #left-sidebar nav, a:hover, a:hover:visited, #show-advanced-search, #main-header, #related {
+  background: #121212 !important;
+  color: #6c7393 !important;
+  text-decoration: none;
+}  
+a, a:visited {
+    color: #474c70;
+    text-decoration: none;
+}  
+
+#search-terms {
+   color: #6c7393 !important;
+   font-style: italic;
+}
+    
+textarea {
+    color: #6c7393 !important;
+}      
+
+.lb-next, .lb-prev, .lb-prev:hover, .lb-next:hover, .lb-data .lb-close:hover, .lb-data .lb-close {
+    display: none !important;
+}    
+
+.lb-outerContainer {
+    border: none !important;
+    background: #1b1b1b !important;
+}    
+    
+.lightboxOverlay {
+    opacity: 0.7;
+}    
+    
+/* good icon */ 
+img[src$="https://df6a.https.cdn.softlayer.net/80DF6A/static.userstyles.org/images/good.gif"] {
+    height:20px!important; /*width of new image*/
+    padding-right:10px!important; /*height of new image*/
+    width:0!important;
+    background-image:url("http://puu.sh/ccUlV/17fde04a31.gif") !important;
+    background-repeat: no-repeat;
+}   
+#discussions .good-rating {
+    list-style-image: url('http://puu.sh/ccUlV/17fde04a31.gif');
+}    
+/* bad icon */ 
+img[src$="https://df6a.https.cdn.softlayer.net/80DF6A/static.userstyles.org/images/bad.gif"] {
+    height:20px!important; /*width of new image*/
+    padding-right:10px!important; /*height of new image*/
+    width:0!important;
+    background-image:url("http://puu.sh/ccUm1/0d4df2df87.gif") !important;
+    background-repeat: no-repeat;
+}     
+#discussions .bad-rating {
+    list-style-image: url('http://puu.sh/ccUm1/0d4df2df87.gif');
+}    
+/* ok icon */ 
+img[src$="https://df6a.https.cdn.softlayer.net/80DF6A/static.userstyles.org/images/ok.png"] {
+    height:15px!important; /*width of new image*/
+    padding-right:20px!important; /*height of new image*/
+    width:0!important;
+    background-image:url("http://puu.sh/ccUm9/a925c87576.png") !important;
+    background-repeat: no-repeat;
+}     
+#discussions .ok-rating {
+    list-style-image: url('http://puu.sh/ccUm9/a925c87576.png');
+}      
+
+.more {
+    border-top: 0px;
+} 
+  
+.install:hover, .install-status a {
+    background-color: #121212;
+    color: #6c7393;
+    background-image: linear-gradient(#121212, #121212);
+}
+.install, .install-info {
+    background-color: #121212;
+    background-image: linear-gradient(#121212, #121212);
+    cursor: pointer;
+}
+.install-status {
+    font-size: larger;
+    padding: 8px 16px 12px;
+    border-radius: 5px;
+    color: #474c70;
+    vertical-align: middle;
+    margin-top: 15px;
+    margin-bottom: 1px;
+    display: inline-block;
+    max-width: 450px;
+}  
+  
+#screenshots {
+    border: 0px solid #DDD;
+}  
+  
+}  
